@@ -1,0 +1,131 @@
+body {
+  font-family: Roboto, sans-serif;
+  position: relative;
+}
+  
+.body:before {  
+   content: "";
+   background-image: url('https://tracyawh.github.io/images/circuitboard.jpg');
+   background-size: cover;
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+   opacity: 0.75;
+ }
+
+header {
+  padding: 20px 0;
+  position: relative;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://tracyawh.github.io/images/keyboard.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+  position: relative;
+}
+
+.jumbotron h2 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+  padding-left: 10px;
+  position: relative;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  color: #ffffff;
+  background-color: gray;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width:  350px;
+  height: 300px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 18px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.copyright {
+  padding-top: 15px;
+  text-align: left;
+}
