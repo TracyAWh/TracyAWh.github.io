@@ -12,7 +12,7 @@ body {
    right: 0px;
    bottom: 0px;
    left: 0px;
-   opacity: 0.75;
+   opacity: 0.50;
  }
 
 header {
@@ -30,20 +30,37 @@ footer .row {
 h1 {
   font-weight: 700;
   margin: 0;
+  position: relative;
 }
 
 h2 {
   padding: 10px;
+  position: relative;
+}
+
+h4 {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  position: relative;
+}
+
+h5 {
+  padding-bottom: 10px;
+  font-size: 1.2 em;
+  position: relative;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 a {
   padding: 0 20px;
   margin: 0;
+  position: relative;
 }
 
 .jumbotron {
@@ -54,6 +71,7 @@ a {
   color: #ffffff;
   height: 400px;
   position: relative;
+  margin: 0px;
 }
 
 .jumbotron h2 {
@@ -61,6 +79,7 @@ a {
   font-weight: 700;
   margin: 0;
   color: #fff;
+  position: relative;
 }
 
 .jumbotron h3 {
@@ -73,10 +92,12 @@ a {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+  position: relative;
 }
 
 .col-md-6 {
   margin: 0 0 30px;
+  position: relative;
 }
 
 .btn.btn-primary {
@@ -84,48 +105,58 @@ section .row img {
   background-color: gray;
   text-align: center;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .btn.btn-primary:hover {
   color: #ffffff;
   background-color: blue;
+  position: relative;
 }
 
 .btn-secondary {
   background-color: #2a70e0;
   color: #ffffff;
   margin: 0 0 30px;
+  position: relative;
 }
 
 .portrait {
   width:  350px;
   height: 300px;
+  position: relative;
 }
 
 figure img {
   width: 100%;
   height: auto;
+  position:relative
 }
 
 figure {
   margin-bottom: 30px;
+  position: relative;
 }
 
 footer {
   font-size: 18px;
   padding: 20px 0;
+  position: relative;
 }
 
 footer .col-sm-8 {
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
 
 footer ul {
   list-style: none;
+  position: relative;
 }
 
 .copyright {
   padding-top: 15px;
   text-align: left;
+  position: relative;
 }
